@@ -1,0 +1,9 @@
+name: DemonChat
+version: 1-STABLE
+main: co.uk.gsck.demon.Main
+commands:
+  nickname:
+    usage: /nickname [player] <nickname>
+    aliases: [nick,nm]
+  clearchat:
+    aliases: [clearc,cc]

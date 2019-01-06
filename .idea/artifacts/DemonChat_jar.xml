@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DemonChat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DemonChat_jar</output-path>
+    <root id="archive" name="DemonChat.jar">
+      <element id="module-output" name="DemonChat" />
+    </root>
+  </artifact>
+</component>

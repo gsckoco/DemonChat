@@ -1,0 +1,101 @@
+#########################################
+#                                       #
+#           Demon Chat Config           #
+#            Written by gsck            #
+#                                       #
+#########################################
+
+#####################################
+#            Chat filter            #
+#####################################
+
+# This is the time between messages, this prevents spamming.
+# Leave as 0 if you don't a time limit between messages.
+timeBetweenMessages: .3
+
+# The spamPunishment is what happens to the player when they spam.
+# Set to "kick" or "ban" to kick the player or ban the player respectively.
+# Set to anything else to do no punishment.
+spamPunishment: "kick"
+
+# This list is all of the words that will be checked for and replaced.
+# Leave blank if you do not want to block any words
+badWords:
+  - fuck
+  - shit
+  - dick
+  - nigger
+  - retard
+  - faggot
+# Add more as desired.
+
+# The following list is what you will replace those words above with.
+# These are chosen at random.
+betterWords:
+  - Yummy
+  - Fudge
+  - This server is amazing!
+  - I like this game
+  - Rainbows
+  - Sparkles
+# Add more as desired.
+
+
+warningsForKick: 4
+warningsForBan: 10
+
+#####################################
+#          Chat formatting          #
+#####################################
+# You can use the following tags in the messages.
+#   - {USERNAME}
+#   - {MESSAGE}
+#   - {WORLD}
+# You can also use colours in the chat format.
+# Colours are as follows:
+#   - &0 Black
+#   - &1 Dark Blue
+#   - &2 Dark Green
+#   - &3 Dark Aqua
+#   - &4 Dark Red
+#   - &5 Dark Purple
+#   - &6 Gold
+#   - &7 Gray
+#   - &8 Dark Gray
+#   - &9 Indigo
+#   - &a Green
+#   - &b Aqua
+#   - &c Red
+#   - &d Pink
+#   - &e Yellow
+#   - &f White/Reset
+#   - &m Strike through
+#   - &n Underline
+#   - &l Bold
+#   - &k Magic
+#   - &o Italics
+
+
+# The length of nicknames for users that can set nicknames.
+nicknameMaxLength: 15
+# The prefix for nicknames
+nicknamePrefix: '~'
+
+
+# The opNameColour sets the name colour for users with op.
+# Colours are the same as above but without the '&' character.
+opNameColour: 'c'
+# The opChatColour sets the chat colour for users with op.
+# Colours are the same as above but without the '&' character.
+opChatColour: 'e'
+
+# The default is as follows
+# chatFormat: "[{WORLD}]<{USERNAME}> {MESSAGE}"
+# chatFormat: "[{WORLD}]<{PREFIX} {USERNAME}> {MESSAGE}"
+
+chatFormat: "[{WORLD}]<{USERNAME}> {MESSAGE}"
+
+
+
+# IGNORE THIS, THIS IS VERSION TRACKING STUFF
+version: 1-STABLE
